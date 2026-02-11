@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Números</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="./assets/dice_PNG130.png" alt="dados">
+
+        <h1>AR Sorteio</h1>
+        <p>Sortear um número.</p>
+
+        <div class="inputs-container">
+            <input type="number" placeholder="mínimo" class="input-min">
+            <input type="number" placeholder="máximo" class="input-max">
+        </div>
+
+        <button onclick="generateNumber()">Sortear</button>
+
+        <p class="resultado"></p>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 — Executed by <b>Atos Rafael</b><br>
+            Projeto educacional <b>DevClub</b></p>
+        <p class="contact"><b>Contato</b> +55 (84) 9.8865-5059</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
